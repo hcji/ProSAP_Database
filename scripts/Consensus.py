@@ -81,6 +81,6 @@ for i, j in enumerate(k):
     res.append([n, m, p, b]) 
 res = pd.DataFrame(res)
 res.columns = ['Complex_ID', 'Complex_Name', 'Subunits_UniProt_IDs', 'Database']
-res.to_csv('Consensus_Complex.csv')
+res.to_csv('Consensus_Complex.csv', index=False)
 
 
